@@ -23,7 +23,7 @@ Esse projeto consiste em uma aplicação web desenvolvida na primeira fase do pr
 'ufat' é convertido para 'u'
 
  # Deploy
- Acesse o projeto através do GitHub Pages <a href=""> CyberCrip </a>
+ Acesse o projeto através do GitHub Pages <a href=""> CyberCrip. </a>
  
 # Modo de Uso
 
