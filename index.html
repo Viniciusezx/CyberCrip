@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <script defer src="/js/app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>CyberCrip</title>
+    <link rel="icon" type="image/x-icon" href="/img/chart-network.png">
+</head>
+<body>
+
+        <section class="fundo-video">
+            <video class="video" src="/video/background.mp4" autoplay muted loop></video>
+        </section>
+
+        <div>
+            fast
+        </div>
+        
+        <nav class="logo">
+
+           <img class="icon" src="/img/chart-network.png" alt=""> CyberCrip
+           
+        </nav>
+
+    <div class="content-box">
+
+        <div class="box-esquerda">
+
+            <div class="crip">
+
+                <textarea id="input-text" class="texto1"  rows=10 cols=60 placeholder="Digite o seu texto aqui..."></textarea>
+
+                <p id="paragrafo" class="sub0" > <img class="info" src="/img/info-white.svg" alt=""> Apenas letras minúsculas e sem acento, caso ultilize as letras ficaram minúsculas e sem acento.</p>
+
+                <div class="botoes">
+
+                    <button onclick="criptografa()" id="criptografa" class="b1">Criptografa</button>
+
+                    <button onclick="descriptografar()" id="descriptografa" class="b2">Descriptografa</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="box-direita">
+
+            <textarea id="input-resultado" class="texto2" cols="60" rows="1" hidden ></textarea>
+
+            <button onclick="copyText()" id="copiar" class="copiar" hidden >Copiar</button>
+
+            <img id="edit-img" class="edit" src="/img/undraw_personal_text_re_vqj3.svg" alt="">
+
+            <h2 id="title1" class="title1" >Nenhum texto encontrado</h2>
+            <h2 id="title2" class="title2">Digite um texto que você deseja criptografar ou descriptografar</p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+

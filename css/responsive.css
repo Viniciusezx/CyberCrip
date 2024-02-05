@@ -1,0 +1,276 @@
+@media (max-width: 1100px) {
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -5px;
+        padding: 40px;
+    }
+
+    .box-esquerda{
+        width: 740px;
+        height: 500px;
+    }
+
+    .texto {
+        width: 520px;
+        height: 210px;
+    }
+
+    .sub {
+        font-size: 20px;
+    }
+
+
+    .botoes {
+        margin-top: 30px;
+    }
+
+    .b1{
+        width: 230px;
+        height: 40px;
+    }
+
+    .b2 {
+        width: 230px;
+        height: 40px;
+    }
+
+    .box-direita {
+        margin-top: 30px;
+        width: 740px;
+        height: 500px;
+    }
+
+    .title1 {
+        font-size: 30px;
+    }
+
+    .title2 {
+        font-size: 20px;
+    }
+    .edit {
+        width: 370px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -5px;
+        padding: 40px;
+    }
+
+    .box-esquerda {
+        width: 600px;
+        height: 450px;
+    }
+
+    .texto1 {
+        width: 500px;
+        height: 300px;
+    }
+
+    .sub0 {
+        margin-top: 5px;
+        font-size: 13.5px;
+        line-height: 1;
+        width: 332px;
+    }
+
+    .info {
+        width: 30px;
+    }
+
+    .botoes {
+        margin-top: 12px;
+    }
+
+    .b1 {
+        width: 250px;
+    }
+
+    .b2 {
+        width: 250px;
+    }
+    .box-direita {
+        margin-top: 36px;
+        width: 600px;
+        height: 450px;
+    }
+
+    .title1 {
+        font-size: 33px;
+        margin-top: 10px;
+    }
+
+    .title2 {
+        width: 400px;
+        font-size: 22px;
+    }
+
+    .edit {
+        width: 325px;
+    }
+
+    .texto2 {
+        width: 500px;
+        height: 357px;
+    }
+
+    .copiar {
+        height: 60px;
+        width: 600px;
+        margin-top: -16px;
+    }
+}
+
+@media ( max-width:430px) {
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -5px;
+        padding: 25px;
+    }
+
+    .box-esquerda {
+        width: 335px;
+        height: 300px;
+    }
+
+    .texto1 {
+        width: 290px;
+        height: 190px;
+        font-size: 16px;   
+    }
+
+    .sub0 {
+        margin-top: 5px;
+        font-size: 10.4px;
+        line-height: 1;
+        width: 260px;
+    }
+
+    .info {
+        width: 18px;
+    }
+
+    .botoes {
+        margin-top: 8px;
+    }
+
+    .b1 {
+        width: 137px;
+        height: 35px;
+    }
+
+    .b2 {
+        width: 137px;
+        height: 35px;
+    }
+    .box-direita {
+        width: 335px;
+        height: 300px;
+    }
+
+    .title1 {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    .title2 {
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .edit {
+        width: 215px;
+    }
+
+    .texto2 {
+        width: 285px;
+        height: 175px;
+        margin-top: 19px;
+    }
+
+    .copiar {
+        width: 334px;
+        height: 37px;
+        margin-top: 52px;
+    }
+}
+
+@media ( max-width:360px) {
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -5px;
+        padding: 30px;
+    }
+
+    .box-esquerda {
+        width: 320px;
+        height: 280px;
+    }
+
+    .texto1 {
+        width: 290px;
+        height: 185px;
+        font-size: 16px;   
+    }
+
+    .sub0 {
+        margin-top: 5px;
+        font-size: 9.4px;
+        line-height: 1;
+        width: 237px;
+    }
+
+    .info {
+        width: 17px;
+    }
+
+    .botoes {
+        margin-top: 7px;
+    }
+
+    .b1 {
+        width: 137px;
+        height: 35px;
+    }
+
+    .b2 {
+        width: 137px;
+        height: 35px;
+    }
+    .box-direita {
+        width: 320px;
+        height: 280px;
+    }
+
+    .title1 {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+
+    .title2 {
+        width: 200px;
+        font-size: 11px;
+    }
+
+    .edit {
+        width: 200px;
+    }
+
+    .texto2 {
+        width: 285px;
+        height: 175px;
+        margin-top: 15px;
+    }
+
+    .copiar {
+        width: 319px;
+        height: 37px;
+        margin-top: 35px;
+    }
+}

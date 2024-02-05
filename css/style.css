@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+}
+
+.fundo-video {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-style: normal;
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+ .box-esquerda {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-evenly;
+    width: 530px;
+    height: 450px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+}
+
+.texto1 {
+    width: 460px;
+    height: 300px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+.texto1::placeholder {
+    color: white;
+    font-weight: 900;
+}
+
+.sub0 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 25px;
+    font-size: 10.4px;
+    line-height: 2;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.info {
+    width: 13px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.b1 {
+    width: 220px;
+    height: 38px;
+    border: none;
+    border-radius: 7px;
+    background-color: #FF3174;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.b2 {
+    width: 220px;
+    height: 38px;
+    background: none;
+    border-radius: 7px;
+    border: 2px solid #FF3174;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.box-direita {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 15px;
+    width: 530px;
+    height: 450px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+}
+
+.texto2 {
+    width: 480px;
+    height: 300px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.copiar {
+    width: 530px;
+    height: 38px;
+    margin-top: 67px;
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    background-color: #FF3174;
+    border: 2px solid #FF3174;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.edit {
+    width: 250px;
+}
+
+.title1 {
+    color: white;
+    font-size: 25px;
+    font-family: "Tilt Warp", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.title2 {
+    width: 305px;
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
