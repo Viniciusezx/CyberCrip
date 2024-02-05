@@ -23,21 +23,21 @@ Esse projeto consiste em uma aplicação web desenvolvida na primeira fase do pr
 'ufat' é convertido para 'u'
 
  # Deploy
- Acesse o projeto <a href="https://cyber-crip.vercel.app"> CyberCrip. </a>
+ Acesse o projeto, <a href="https://cyber-crip.vercel.app"> CyberCrip. </a>
  
 # Modo de Uso
 
-1. Acesse o Projeto:
+1. Acesse o Projeto:         
 Entre no site através do seu navegador web.
 
-2. Inserir o Texto:
+2. Inserir o Texto:          
 Insira o texto desejado na área de texto. Siga as regras de letras minúsculas e sem acentos para não ter erro de digitação.
 
-3. Escolha entre Criptografar ou Descriptografar:
+3. Escolha entre Criptografar ou Descriptografar:        
 Selecione a opção desejada, criptografar ou descriptografar.
 
-4. Resultado:
+4. Resultado:        
 O resultado será exibido na área de texto abaixo. Se estiver criptografando, a palavra será convertida; se estiver descriptografando, a palavra original será revelada.
 
-5. Botão Copiar:
+5. Botão Copiar:       
 O botão "Copiar" ira copiar o texto criptografado/descriptografado para a área de transferência.
